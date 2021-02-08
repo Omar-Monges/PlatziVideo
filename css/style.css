@@ -33,8 +33,12 @@ header {
     list-style: none;
     text-align: right;
 }
+.user-nav ul li {
+    margin: 5px 0;
+}
 .user-nav ul a {
     text-decoration: none;
+    color: #fff;
 }
 .user-nav ul a:hover {
     text-decoration: underline;
