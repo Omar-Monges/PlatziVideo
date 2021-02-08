@@ -5,11 +5,12 @@
 html {
     font-size: 62.5%;
     font-family: 'Mulish', sans-serif;
+    background-color: #0AA9CF;
 }
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #0AA9CF;
+    margin-bottom: 15px;
 }
 .logo img {
     margin: 10px 10px;
@@ -45,4 +46,29 @@ header {
 }
 .user-nav:hover ul {
     display: block;
+}
+main {
+    width: 100%;
+    height: auto;
+}
+.search-seccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.search {
+    width: 70%;
+    height: 30px;
+    padding: 2px 12.5px;
+    margin: 15px 0;
+    color: #F8FAFC;
+    border: 2px solid #CCE4FC;
+    border-radius: 25px;
+    outline: none;
+    background-color: #0AA8D9;
+}
+::placeholder {
+    color: #CCE4FC;
 }
