@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Mulish', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0AA9CF;
+}
+.logo img {
+    margin: 10px 10px;
+    width: 150px;
+    height: 50px;
+}
+.user-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+.user-nav img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.user-nav ul {
+    display: none;
+    position: relative;
+    list-style: none;
+    text-align: right;
+}
+.user-nav ul a {
+    text-decoration: none;
+}
+.user-nav ul a:hover {
+    text-decoration: underline;
+}
+.user-nav:hover ul {
+    display: block;
+}
