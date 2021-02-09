@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Mulish', sans-serif;
+    background: linear-gradient(#04E474, #0AA9CF);
+    /* height: 100vh; */
+}
+header {
+    display: flex;
+    justify-content: flex-start;
+}
+.logo img {
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+}
+.login {
+    width: 100%;
+    height: auto;
+}
+.login__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 2px solid #fff;
+    border-radius: 40px;
+}
+.login__container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login__container-remember-me {
+    display: flex;
+    justify-content: space-between;
+}
