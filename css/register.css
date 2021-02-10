@@ -5,6 +5,7 @@
 }
 html {
     font-size: 62.5%;
+    font-family: 'Mulish', sans-serif;
 }
 body {
     font-family: 'Mulish', sans-serif;
@@ -20,11 +21,11 @@ header {
     width: 150px;
     height: 50px;
 }
-.login {
+.register {
     width: 100%;
     height: auto;
 }
-.login__container {
+.register__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,17 +35,16 @@ header {
     max-width: 700px;
     height: 600px;
     margin: 70px auto;
-    padding: 20px 0;
+    padding: 10px 0;
     background-color: rgba(255, 255, 255, 0.2);
     border: 2px solid #fff;
     border-radius: 40px;
 }
-.login__container-title {
+.register__container-title {
     font-size: 3.5rem;
     color: #fff;
-    margin: 40px 0;
 }
-.login__container form {
+.register__container form {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -54,6 +54,7 @@ header {
 }
 ::placeholder {
     color: #fff;
+    /* margin-left: 10px; */
 }
 .in-text, .in-button {
     width: 100%;
@@ -74,48 +75,16 @@ header {
     border-radius: 25px;
     color: #fff;
 }
-.login__container-remember-me {
-    display: flex;
-    margin: 30px 0;
-    justify-content: space-between;
-    font-size: 1.6rem;
-}
-.login__container-remember-me label {
-    display: flex;
-    align-items: center;
-    color: #fff;
-}
-.login__container-remember-me a {
-    text-decoration: none;
-    color: #fff;
-}
-.login__container-remember-me a:hover {
-    text-decoration: underline;
-}
-.login__container--red-social > div{
-    display: flex;
-    align-items: center;
-    font-size: 1.5rem;
-    color: #fff;
-}
-.login__container--red-social img {
-    width: 35px;
-    height: 35px;
-    margin: 0 10px;
-}
-.createUser {
-    margin: 25px 0;
-    padding: 10px;
-    font-size: 2rem;
+.login {
+    margin-top: 50px;
+    font-size: 3rem;
     font-weight: bold;
     color: #fff;
     text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 20px;
 }
-.createUser:hover {
+.login:hover {
     text-decoration: underline;
-    color: #e4e4e4;
+    color: #E4E4E4;
 }
 footer {
     display: flex;
